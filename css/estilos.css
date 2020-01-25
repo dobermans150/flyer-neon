@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: #000;
+}
+
+p{
+    margin-bottom: 30px;
+    
+}
+
+.texto-regular{
+    font-weight: 400;
+}
