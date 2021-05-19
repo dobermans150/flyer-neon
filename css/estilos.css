@@ -36,8 +36,7 @@ p{
     position: fixed;
     top: 0;
     left: 0;
-
-    /* Estilos Neon */
+    z-index: 0;
 
     /* estilo del background */
     background-image: url(../img/bg-header-black-3.jpg);
@@ -96,6 +95,48 @@ p{
     text-shadow: none;
     border: 6px dotted rgb(255, 255, 255, .5);
 }
+
+/* 
+    MAin
+*/
+
+main{
+    color:#fff;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 100;
+    position: relative;
+    margin-top: 100vh;
+    text-align: justify;
+}
+
+main .contenedor{
+    padding: 50px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+main .subtitulo-h2{
+    margin-bottom: 50px;
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+main .subtitulo-h2, main .letra-capital{
+    text-shadow: 0px 0px 15px rgb(255, 255, 255, .5), 0px 0px 10px rgb(255, 255, 255, .5);
+}
+
+main .letra-capital{
+    font-size: 55px;
+    font-family: serif;
+    margin-right: 15px;
+    line-height: 15px;
+}
+
 
 /* 
     Animaciones
